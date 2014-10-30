@@ -1035,43 +1035,43 @@ class Mission
 						};
 						class Item1
 						{
-							value="false";
+							value="true";
 							parentCls="ALiVE_SYS_LOGISTICSDISABLE";
 							typeName="DISABLELOG";
 						};
 						class Item2
 						{
-							value="false";
+							value="true";
 							parentCls="ALiVE_SYS_LOGISTICSDISABLE";
 							typeName="DISABLEPERSISTENCE";
 						};
 						class Item3
 						{
-							value="false";
+							value="true";
 							parentCls="ALiVE_SYS_LOGISTICSDISABLE";
 							typeName="DISABLELOAD";
 						};
 						class Item4
 						{
-							value="false";
+							value="true";
 							parentCls="ALiVE_SYS_LOGISTICSDISABLE";
 							typeName="DISABLETOW";
 						};
 						class Item5
 						{
-							value="false";
+							value="true";
 							parentCls="ALiVE_SYS_LOGISTICSDISABLE";
 							typeName="DISABLELIFT";
 						};
 						class Item6
 						{
-							value="false";
+							value="true";
 							parentCls="ALiVE_SYS_LOGISTICSDISABLE";
 							typeName="DISABLECARRY";
 						};
 						class Item7
 						{
-							value="false";
+							value="true";
 							parentCls="ALiVE_SYS_LOGISTICSDISABLE";
 							typeName="DISABLE3D";
 						};
@@ -2508,7 +2508,7 @@ class Mission
 			vehicle="Box_NATO_WpsSpecial_F";
 			leader=1;
 			skill=0.60000002;
-			init="clearWeaponCargo this;  clearMagazineCargo this;  clearItemCargo this; this additemcargo [""optic_lrps"", 100]; this additemcargo [""optic_dms"", 100];";
+			init="clearWeaponCargo this;  clearMagazineCargo this;  clearItemCargo this; this additemcargo [""optic_lrps"", 100]; this additemcargo [""optic_dms"", 100]; this additemCargo [""Laserdesignator"", 20]; this addMagazineCargo [""Laserbatteries"", 20];";
 		};
 		class Item19
 		{
