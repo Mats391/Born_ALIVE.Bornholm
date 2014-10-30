@@ -69,16 +69,16 @@ class Mission
 	randomSeed=3909019;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
+		resistanceWest=0;
 		startWeather=0.44999999;
-		startFog=0.1;
-		startWind=0.1;
-		startWaves=0.1;
-		forecastWeather=0.30000001;
-		forecastFog=0.1;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		forecastLightnings=0.1;
+		startFog=0.099999994;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.29999998;
+		forecastFog=0.099999994;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
 		year=2014;
 		day=14;
 		hour=10;
@@ -359,7 +359,7 @@ class Mission
 						items=9;
 						class Item0
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_mil_OPCOM";
 							typeName="debug";
 						};
